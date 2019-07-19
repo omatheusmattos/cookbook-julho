@@ -9,3 +9,4 @@ RSpec.describe Recipe, type: :model do
   it { is_expected.to have_db_column(:ingredients).of_type(:text) }
   it { is_expected.to have_db_column(:cook_method).of_type(:text) }
 end
+  
